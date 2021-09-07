@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(otp.busboy.app maptiles.busboy.app)
+domains=(otp.busboy.app)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="admin@busboy.app" # Adding a valid address is strongly recommended
